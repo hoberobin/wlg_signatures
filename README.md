@@ -6,9 +6,9 @@ A collection of email signatures for Will Leather Goods team members.
 
 - `index.html` - Landing page to select which signature to view
 - `signatures/` - Directory containing individual signature HTML files
-  - `signature1.html` - First signature template
-  - `signature2.html` - (Coming soon)
-  - `signature3.html` - (Coming soon)
+  - `signature1.html` - Will Leather Goods logo signature
+  - `signature2.html` - Three logos (Spirit, Nike, Will Leather Goods) in triangle layout
+  - `signature3.html` - Spirit Leather Works logo signature
 
 ## Usage
 
@@ -16,17 +16,12 @@ A collection of email signatures for Will Leather Goods team members.
 2. Click on a signature to view it
 3. Copy the HTML code or use the signature directly in your email client
 
-## Adding New Signatures
+## Available Signatures
 
-To add a new signature:
-
-1. Create a new HTML file in the `signatures/` directory (e.g., `signature2.html`)
-2. Copy the structure from an existing signature file
-3. Update the signature content as needed
-4. Add a new card to `index.html` in the signature list section
-5. Update the link to point to your new signature file
+- **Will Leather Goods** - Standard email signature with single Will Leather Goods logo
+- **Spirit, Nike, Will Leather Goods** - Email signature with three logos (Spirit, Nike, and Will Leather Goods) arranged in a triangle layout
+- **Spirit Leather Works** - Email signature with Spirit Leather Works logo
 
 ## GitHub Pages
 
 This repository is set up to work with GitHub Pages. The site is automatically deployed when changes are pushed to the main branch.
-
