@@ -1,84 +1,162 @@
 <!DOCTYPE html>
-<html>
-  <body style="margin:0; padding:0;">
-    <table cellpadding="0" cellspacing="0" border="0"
-           style="font-family: Arial, sans-serif; font-size:12px; line-height:1.4; color:#000000;">
-      <tr>
-        <!-- Logo -->
-        <td valign="top" style="padding-right:16px;">
-          <a href="https://willleathergoods.com" target="_blank" style="text-decoration:none;">
-            <img src="https://cdn.shopify.com/s/files/1/0714/1166/3064/files/wlg_logo.png?v=1765261384"
-                 alt="Will Leather Goods"
-                 style="display:block; border:0; width:150px; height:auto;">
-          </a>
-        </td>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Will Leather Goods - Email Signatures</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-        <!-- Text block -->
-        <td valign="top" style="padding-top:2px;">
-          <!-- Name -->
-          <div style="font-size:14px; font-weight:bold;">
-            Firstname Lastname
-          </div>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
 
-          <!-- Title -->
-          <div style="font-size:12px; margin-bottom:8px;">
-            Title
-          </div>
+    .container {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+      padding: 40px;
+      max-width: 600px;
+      width: 100%;
+    }
 
-          <!-- Phone (bold to match name) -->
-          <div style="font-size:12px; font-weight:bold; margin-bottom:2px;">
-            +1 (866) 123.4455 <span style="color:#555555; font-weight:normal;">main</span>
-          </div>
+    h1 {
+      color: #333;
+      font-size: 28px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
 
-          <!-- Address -->
-          <div style="font-size:12px; margin-bottom:2px;">
-            1457 Westec Drive &bull; Eugene, OR 97402
-          </div>
+    .subtitle {
+      color: #666;
+      font-size: 16px;
+      text-align: center;
+      margin-bottom: 40px;
+    }
 
-          <!-- Website -->
-          <div style="font-size:12px; margin-bottom:8px;">
-            <a href="https://willleathergoods.com"
-               target="_blank"
-               style="color:#00548b; text-decoration:underline;">
-              willleathergoods.com
-            </a>
-          </div>
+    .signature-list {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
 
-          <!-- Social icons -->
-          <table cellpadding="0" cellspacing="0" border="0">
-            <tr>
-              <td style="padding-right:6px;">
-                <a href="https://www.facebook.com/willleathergoods" target="_blank">
-                  <img src="https://cdn.shopify.com/s/files/1/0714/1166/3064/files/facebook.png?v=1765261383"
-                       alt="Facebook"
-                       style="display:block; border:0; width:20px; height:20px;">
-                </a>
-              </td>
-              <td style="padding-right:6px;">
-                <a href="https://www.instagram.com/willleathergoods" target="_blank">
-                  <img src="https://cdn.shopify.com/s/files/1/0714/1166/3064/files/insta.png?v=1765261384"
-                       alt="Instagram"
-                       style="display:block; border:0; width:20px; height:20px;">
-                </a>
-              </td>
-              <td style="padding-right:6px;">
-                <a href="https://www.pinterest.com/willleathergoods" target="_blank">
-                  <img src="https://cdn.shopify.com/s/files/1/0714/1166/3064/files/pinterest.png?v=1765261384"
-                       alt="Pinterest"
-                       style="display:block; border:0; width:20px; height:20px;">
-                </a>
-              </td>
-              <td>
-                <a href="https://www.tiktok.com/@willleathergoods" target="_blank">
-                  <img src="https://cdn.shopify.com/s/files/1/0714/1166/3064/files/tiktok.png?v=1765261383"
-                       alt="TikTok"
-                       style="display:block; border:0; width:20px; height:20px;">
-                </a>
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
-  </body>
+    .signature-card {
+      border: 2px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 20px;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+
+    .signature-card:hover {
+      border-color: #00548b;
+      box-shadow: 0 4px 12px rgba(0, 84, 139, 0.15);
+      transform: translateY(-2px);
+    }
+
+    .signature-card:active {
+      transform: translateY(0);
+    }
+
+    .signature-title {
+      font-size: 18px;
+      font-weight: 600;
+      color: #333;
+      margin-bottom: 8px;
+    }
+
+    .signature-description {
+      font-size: 14px;
+      color: #666;
+    }
+
+    .coming-soon {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .coming-soon:hover {
+      border-color: #e0e0e0;
+      box-shadow: none;
+      transform: none;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #00548b;
+      color: white;
+      font-size: 11px;
+      padding: 4px 8px;
+      border-radius: 4px;
+      margin-left: 8px;
+      font-weight: 500;
+    }
+
+    .badge.coming-soon {
+      background: #999;
+    }
+
+    .footer {
+      margin-top: 40px;
+      text-align: center;
+      color: #999;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Will Leather Goods</h1>
+    <p class="subtitle">Email Signature Gallery</p>
+    
+    <div class="signature-list">
+      <a href="signatures/signature1.html" class="signature-card">
+        <div class="signature-title">
+          Will Leather Goods
+          <span class="badge">Available</span>
+        </div>
+        <div class="signature-description">
+          Standard email signature with Will Leather Goods logo, contact information, and social media links
+        </div>
+      </a>
+
+      <a href="signatures/signature2.html" class="signature-card">
+        <div class="signature-title">
+          Spirit, Nike, Will Leather Goods
+          <span class="badge">Available</span>
+        </div>
+        <div class="signature-description">
+          Email signature with Spirit, Nike, and Will Leather Goods logos sharing the logo space, contact information, and social media links
+        </div>
+      </a>
+
+      <a href="signatures/signature3.html" class="signature-card">
+        <div class="signature-title">
+          Spirit Leather Works
+          <span class="badge">Available</span>
+        </div>
+        <div class="signature-description">
+          Email signature with Spirit Leather Works logo, contact information, and social media links
+        </div>
+      </a>
+    </div>
+
+    <div class="footer">
+      <p>Select a signature above to view and copy</p>
+    </div>
+  </div>
+</body>
 </html>
