@@ -7,9 +7,9 @@ A collection of email signatures for Will Leather Goods team members.
 - `index.html` - Landing page to select which signature to view
 - `signatures/` - Directory containing individual signature HTML files
   - `signature1.html` - Will Leather Goods logo signature
-  - `signature2.html` - Spirit, Nike, Will Leather Goods - Three logos in triangle layout
-  - `signature3.html` - Spirit Leather Works logo signature
-  - `signature4.html` - Spirit, Nike, Will Leather Goods (Alternative) - Nike and WLG logos on top, SPIRIT LEATHERWORKS text below
+  - `signature4.html` - Spirit, Nike, Will Leather Goods - Nike and WLG logos on top, SPIRIT LEATHERWORKS text below
+  - `signature2.html` - (No longer in use) Spirit, Nike, Will Leather Goods - Three logos in triangle layout
+  - `signature3.html` - (No longer in use) Spirit Leather Works logo signature
 
 ## Usage
 
@@ -20,9 +20,7 @@ A collection of email signatures for Will Leather Goods team members.
 ## Available Signatures
 
 - **Will Leather Goods** - Standard email signature with single Will Leather Goods logo
-- **Spirit Leather Works** - Email signature with Spirit Leather Works logo
-- **Spirit, Nike, Will Leather Goods** - Email signature with three logos (Spirit, Nike, and Will Leather Goods) arranged in a triangle layout
-- **Spirit, Nike, Will Leather Goods (Alternative)** - Email signature with Nike and Will Leather Goods logos on top, SPIRIT LEATHERWORKS text below (stacked)
+- **Spirit, Nike, Will Leather Goods** - Email signature with Nike and Will Leather Goods logos on top, SPIRIT LEATHERWORKS text below (stacked)
 
 ## GitHub Pages
 
