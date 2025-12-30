@@ -22,7 +22,7 @@ A collection of email signatures for Will Leather Goods team members.
 
 - **Will Leather Goods** - Standard email signature with single Will Leather Goods logo
 - **Spirit, Nike, Will Leather Goods** - Email signature with Nike and Will Leather Goods logos on top, SPIRIT LEATHERWORKS text below (stacked)
-- **Nike, Spirit Leather Works, Will Leather Goods, NuOrder** - Email signature with 4 logos in a 2x2 grid layout (Nike, Spirit Leather Works, Will Leather Goods, and NuOrder)
+- **Nike, Spirit, Will Leather Goods, NuOrder** - Email signature with Nike, Spirit Leather Works on top and Will Leather Goods, and NuOrder below
 
 ## GitHub Pages
 
